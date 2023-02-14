@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date&Time</title>
+  </head>
+  <style>
+    body {
+      background-color: hsl(39, 67%, 51%);
+    }
+    
+    .round{
+        border: 1px solid white;
+        border-radius: 50px;
+    }
+
+    .day{
+        color: green;
+        font-size: 70px ;
+    }
+    .month{
+        color: blue;
+        font-size: 140px ;
+    }
+    .year{
+          color: red;
+          font-size:  200px;
+    }
+    .wrap {
+        display: flex;
+      align-items: center;
+      margin-left: 630px;
+      margin-bottom: 30px;
+    }
+    .box {
+      text-align: center;
+      margin-left: 150px;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 100px;
+    }
+    .hours {
+      font-weight: 700;
+      font-size: 300px;
+      line-height: 48px;
+      color: green;
+    }
+    .minutes {
+      font-weight: 700;
+      font-size: 150px;
+      line-height: 48px;
+      color: blue;
+    }
+    .seconds {
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 48px;
+      color: red;
+    }
+  </style>
+  <body>
+<div class="round">
+    <div class="wrap">
+        <h1 class="day">Day/</h1>
+        <h1 class="month">Month/</h1>
+        <h1 class="year">Year/</h1>
+      </div>
+      <div class="box">
+        <span class="hours">00</span>: <span class="minutes">00</span>:
+        <span class="seconds">00</span>
+      </div>
+</div>
+    <script src="main.js"></script>
+  </body>
+</html>
